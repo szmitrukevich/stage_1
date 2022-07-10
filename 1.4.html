@@ -7,42 +7,55 @@
     <title>Макет 1.4</title>
   </head>
 
-  <div class="mobile-menu">
-  <div class="mobile-top">
-    <div class="mobile-menu__header">
-      <button class="mobile-menu__header--back" href="#"><img src="logo/back.svg"></button>
-      <button class="mobile-menu__header--logo" href="#"><img src="logo/logo.svg"></button>
-      <button class="mobile-menu__header--search" href="#"><img src="logo/search.svg"></button>
-    </div>
+
+  <body class="mobile-menu">
+
+    <div class="mobile-menu__container">
+    <div class="mobile-menu__box">
+  
+      <header class="mobile-menu__header">
+          <button class="mobile-menu__header header__button"><img src="logo/back.svg"></button>
+          <a href="#" class="mobile-menu__header header__logo"><img src="logo/logo.svg"></a>
+          <button class="mobile-menu__header header__button"><img src="logo/search.svg"></button>
+      </header>
     
+      <nav class = "mobile-menu__nav">
+      <ul class="mobile-menu__nav nav__list">
+          <li class="mobile-menu__nav nav__item"><a class="nav__link" href="#">Ремонт техники</a></li>
+          <li class="mobile-menu__nav nav__item"><a class="nav__link" href="#">Услуги и сервисы</a></li>
+          <li class="mobile-menu__nav nav__item"><a class="nav__link" href="#">Корпоративным клиентам</a></li>
+          <li class="mobile-menu__nav nav__item"><a class="nav__link" href="#">Продавцам техники</a></li>
+          <li class="mobile-menu__nav nav__item"><a class="nav__link" href="#">Партнерам</a></li>
+          <li class="mobile-menu__nav nav__item"><a class="nav__link" href="#">Производителям</a></li>
+          <li class="mobile-menu__nav nav__item"><a class="nav__link" href="#">Наши сервисные центры</a></li>
+          <li class="mobile-menu__nav nav__item"><a class="nav__link" href="#">Контакты</a></li>
+      </ul>
+      </nav>
 
-    <ul class="mobile-menu__body">
-          <li class="mobile-menu__body body__item"><a href="#">Ремонт техники</a></li>
-          <li class="mobile-menu__body body__item"><a href="#">Услуги и сервисы</a></li>
-          <li class="mobile-menu__body body__item"><a href="#">Корпоративным клиентам</a></li>
-          <li class="mobile-menu__body body__item"><a href="#">Продавцам техники</a></li>
-          <li class="mobile-menu__body body__item"><a href="#">Партнерам</a></li>
-          <li class="mobile-menu__body body__item"><a href="#">Производителям</a></li>
-          <li class="mobile-menu__body body__item"><a href="#">Наши сервисные центры</a></li>
-          <li class="mobile-menu__body body__item"><a href="#">Контакты</a></li>
-    </ul>
     </div>
-    <div class="mobile-bottom">
-    <div class="mobile-menu__footer">
+
+    <div class="mobile-menu__box">
+    <footer class="mobile-menu__footer">
+
       <div class="mobile-menu__footer footer__icons">
-        <button class="footer__icons--call" href="#"><img src="logo/call.svg"></button>
-        <button class="footer__icons--back" href="#"><img src="logo/chat.svg"></button>
-        <button class="footer__icons--back" href="#"><img src="logo/profile.svg"></button>
+        <button class="footer__button" href="#"><img src="logo/call.svg"></button>
+        <button class="footer__button" href="#"><img src="logo/chat.svg"></button>
+        <button class="footer__button" href="#"><img src="logo/profile.svg"></button>
       </div>
-      <a class="mobile-menu__footer footer__email" href="mailto:mail@cps.com">mail@cps.com</a>
-      <a class="mobile-menu__footer footer__tel" href="tel:88008908900">8 800 890 89000</a>
-      <div class="mobile-menu__footer footer__lang">
-        <button class="footer__lang--ru" href="#">RU</button>
-        <button class="footer__lang--en" href="#">EN</button>
-        <button class="footer__lang--cn" href="#">CN</button>
-      </div>
-      </div>
-    </div>
-    </div>
 
+      <a class="mobile-menu__footer footer__email" href="mailto:mail@cps.com">mail@cps.com</a>
+
+      <a class="mobile-menu__footer footer__tel" href="tel:88008908900">8 800 890 89000</a>
+
+      <div class="mobile-menu__footer footer__lang">
+        <button class="footer__lang lang__button" href="#">RU</button>
+        <button class="footer__lang lang__button" href="#">EN</button>
+        <button class="footer__lang lang__button" href="#">CN</button>
+      </div>
+
+    </footer>
+    </div>
+    </div>
+  
+  </body>
 </html>

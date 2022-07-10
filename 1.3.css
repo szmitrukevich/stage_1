@@ -51,6 +51,7 @@ header {
     border: none;
     padding: 0;
     padding-right: 10px;
+    cursor: pointer;
 }
 .header__item:last-child .header__button {
     padding-right: 0px;
@@ -316,6 +317,10 @@ header {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
 
 .nav__item:last-child .nav__button {
