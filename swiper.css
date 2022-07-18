@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "TT Lakes";
+    color: #7E7E82;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.header__title {
+    font-weight: 400;
+    margin:0;
+    padding: 16px 0;
+    background: linear-gradient(to right, #F2F2F2, #FFFFFF);;
+    border-top: 1px solid #D9FFF5;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 40px;
+}
+
+.swiper-container {
+    background-color: #F2F2F2;
+}
+
+.image-slider__wrapper {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.image-slider__slide {
+background-color: #FFFFFF;
+border: 1px solid #EAEAEA;
+border-radius: 5px;
+padding: 12px 20px 16px 20px;
+box-sizing: border-box;
+max-width: 240px;
+height: 72px;
+margin: 16px;
+}
+
+.image-slider__image {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.slider__button {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.swiper-pagination {
+    background-color: #F2F2F2;
+    top: 173px;
+    max-height: 40px;
+}
+
+.swiper-pagination-bullet {
+ background-color: #DDDDDD;
+ opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+ background-color:#B5B6BC;
+}
